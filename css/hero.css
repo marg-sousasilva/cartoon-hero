@@ -1,0 +1,86 @@
+body { background-color: #272727;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif; 
+	font-weight: 200;
+ 	font-size: 22px; 
+ 	color: #FFFFFF;
+ 	line-height: 32px; }
+ 
+
+/*HEADER*/
+ 
+ header { 
+ 	text-align: center; 
+ 	padding-top: 50px; 
+ 	padding-bottom: 50px;}
+
+
+ header img { 
+ 	width: 500px;}
+
+ /*HEADINGS*/
+
+ h1 { 
+ 	color: #FFFFFF; 
+ 	text-transform: uppercase;
+ 	font-size: 100px;
+	margin: 0px; 
+	font-family: 'Work Sans', sans-serif;
+ 	font-weight: 900; }
+
+ h2 { 
+ 	color: #FF5804; 
+ 	font-size: 50px;
+ 	font-family: 'Work Sans', sans-serif;
+ 	font-weight: 600; 
+ 	margin-top: 20px;} 
+
+ a { 
+ 	color: #FFFFFF; 
+  }
+
+ a:hover { 
+ 	color: #FF5804 }
+
+ p.caption { 
+ 	color: #D1D1D1; 
+ 	font-size: 15px;
+ 	font-style: italic;
+ 	margin-top: 0;  }
+
+
+
+/*MAIN*/
+
+main {  
+	font-family: 'Work Sans' 
+	width: 800px; 
+	/*margin: 0 auto; */
+	padding: 20px; 
+	text-align: center; } 
+
+
+/* If you want to center elements, but still have a different text alignment you should do:   
+	margin: 0 auto; 
+	The "0" value will apply to top and bottom margins and the auto to left and right 
+
+	Therefore if you have the same values either for top/bottom or left/right you can just combine them*/
+
+main img { 
+	max-width: 30%;  }
+
+/*FOOTER*/
+
+footer { 
+	background-color: #191919; 
+	padding: 20px; 
+	margin: 0px; }
+
+footer a{ 
+	color: #FFFFFF;}
+
+footer a:hover { 
+	opacity: .5; 
+	background-color: transparent; }
+
+
